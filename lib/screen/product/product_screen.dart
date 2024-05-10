@@ -22,7 +22,7 @@ class _ProductScreenState extends State<ProductScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Producat"),
+          title: const Text("Details"),
           backgroundColor: Colors.amber.shade200,
         ),
         body: Form(

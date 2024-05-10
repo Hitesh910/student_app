@@ -54,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Column(
                   children: [
                     Text(
-                      '${studentList[index]['name']}',
+                      studentList[index]['name'],
                       style:
                           const TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
                     ),
