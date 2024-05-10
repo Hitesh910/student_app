@@ -1,16 +1,6 @@
-# student_data_app
+<p>
+  <img src = "https://github.com/Hitesh910/student_app/assets/154861495/8d0293fb-6458-4fee-b399-ec2be5ce9ede"height="850"width="400"/>
+  <img src = "https://github.com/Hitesh910/student_app/assets/154861495/ad71f5ea-cd73-4b6f-974e-d4838b286353"height="850"width="400"/>
+  <img src = "https://github.com/Hitesh910/student_app/assets/154861495/1e654fe7-d282-42a2-971c-b07e44e0cd33"height="850"width="400"/>
+</p>
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
