@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:student_data_app/model/student_model.dart';
 import 'package:student_data_app/utils/global.dart';
 
 class ProductScreen extends StatefulWidget {
@@ -124,6 +125,7 @@ class _ProductScreenState extends State<ProductScreen> {
                             if (value!.isEmpty) {
                               return "Stdanderd is required";
                             }
+                            return null;
                           },
                         ),
                       ),
@@ -132,19 +134,16 @@ class _ProductScreenState extends State<ProductScreen> {
                           onPressed: () {
                             if (fromKey.currentState!.validate())
                               {
-                                String? kpath = path;
-                              String? grid = txtGrid.text;
+                               // String? path = path;
+                              String? no = txtGrid.text;
                                String? name = txtName.text;
                               String? std = txtStd.text;
+                              String? kpath = path;
             
-                              Map student = {
-                                "path":kpath,
-                                "grid": grid,
-                                "name": name,
-                                "std": std
-                              };
+                              Student s1 = Student(name, no, std, kpath);
             
-                              studentList.add(student);
+                              studentList.add(s1);
+                              print('$name $name');
                               Navigator.pop(context);
                             }
                           },
